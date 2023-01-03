@@ -1,3 +1,3 @@
 FROM digitalocean/doctl:latest
 WORKDIR /
-RUN echo "Hi"
+RUN digitalocean/doctl 
